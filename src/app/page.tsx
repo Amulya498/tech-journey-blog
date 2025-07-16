@@ -11,7 +11,7 @@ type AllPostsData = {
 }[]
 
 // Change this url to change the image!
-const imageUrl = '/images/mountain.jpg';
+const imageUrl = '/images/ollie.jpg';
 
 export default function Home() {
   const allPostsData: AllPostsData = getSortedPostsData()
@@ -20,7 +20,7 @@ export default function Home() {
       <div>
         <section>
           <p className={'prose'}>
-            Hey I&apos;m Luke. This is my site.
+            Hey I&apos;m Amulya. This is my awesome site. hehehe 
           </p>
           <div className={'my-4'}>
             <i>
